@@ -1,0 +1,24 @@
+{
+  "name": "readmepro",
+  "version": "1.0.0",
+  "description": "Professional ReadMe generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coding-boot-camp/potential-enigma.git"
+  },
+  "author": "Chris Broussard",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/coding-boot-camp/potential-enigma/issues"
+  },
+  "homepage": "https://github.com/coding-boot-camp/potential-enigma#readme",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "inquirer": "^9.0.2"
+  },
+  "keywords": []
+}
