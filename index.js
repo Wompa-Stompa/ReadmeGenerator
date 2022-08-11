@@ -9,7 +9,7 @@ function promptUser(){
         {
             type: "input",
             name: "projectTitle",
-            message: "What is the project title?",
+            message: "What is your project's title?",
         },
         {
             type: "input",
@@ -24,7 +24,7 @@ function promptUser(){
         {
             type: "input",
             name: "usage",
-            message: "What is the purpose of the project?"
+            message: "User Story"
         },
         {
             type: "list",
@@ -48,7 +48,7 @@ function promptUser(){
         {
             type: "input",
             name: "tests",
-            message: "Is there a test included?"
+            message: "What technologies were implemented?"
         },
         {
             type: "input",
