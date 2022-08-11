@@ -2,29 +2,21 @@ const generateMarkdown = data => {
   return `# ${data.title}
   ![Github licence](http://img.shields.io/badge/license-${data.license}-blue.svg)
   
-  ## Description 
-  ${data.description}
   ## Table of Contents
-  * [Installation](#installation)
-  * [Usage](#usage)
   * [License](#license)
-  * [Contributing](#contributing)
-  * [Techs](#tests)
   * [Questions](#questions)
   * [Project Title](#projectTitle)
-  
-* [Project Description](#description)
-* [Project Installation](#installation)
-* [User Story](#usage)
-* [License](#license)
-* [Contributors](#contributing)
-* [Technologies Implemented](#tests)
-* [Author Contact](#email)
-* [Github](#username)
+  * [Project Description](#description)
+  * [Project Installation](#installation)
+  * [User Story](#usage)
+  * [Contributors](#contributing)
+  * [Technologies Implemented](#tests)
+  * [Author Contact](#email)
+  * [Github](#username)
 
   ## Description
   ${data.description}
-    ## Installation
+  ## Installation
   ${data.installation}
   ## UserStory
   ${data.usage}
@@ -33,10 +25,10 @@ const generateMarkdown = data => {
   ## Contributing 
   ${data.contributing}
   ## Tech
-  ${data.test}
+  ${data.tests}
   ## Author's Email
   ${data.email}
-  ##Github
+  ## Github
  You can view more of my projects at https://github.com/${data.username}.
 `;
 }
