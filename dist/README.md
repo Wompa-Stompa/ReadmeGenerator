@@ -1,15 +1,14 @@
-const generateMarkdown = data => {
-  return `# ${data.title}
-  ![Github licence](http://img.shields.io/badge/license-${data.license}-blue.svg)
+# undefined
+  ![Github licence](http://img.shields.io/badge/license-MIT-blue.svg)
   
   ## Description 
-  ${data.description}
+  NO
   ## Table of Contents
   * [Installation](#installation)
   * [Usage](#usage)
   * [License](#license)
   * [Contributing](#contributing)
-  * [Techs](#tests)
+  * [Tests](#tests)
   * [Questions](#questions)
   * [Project Title](#projectTitle)
   
@@ -23,22 +22,18 @@ const generateMarkdown = data => {
 * [Github](#username)
 
   ## Description
-  ${data.description}
+  NO
     ## Installation
-  ${data.installation}
+  You install it and just do it man
   ## UserStory
-  ${data.usage}
+  To be or not to be
   ## License 
-  This project is licensed under ${data.license}
+  This project is licensed under MIT
   ## Contributing 
-  ${data.contributing}
+  Chris Broussard
   ## Tech
-  ${data.test}
-  ## Author's Email
-  ${data.email}
+  undefined
+  ## Author
+  chavo
   ##Github
- You can view more of my projects at https://github.com/${data.username}.
-`;
-}
-
-module.exports = generateMarkdown;
+ You can view more of my projects at https://github.com/wompa-stompa.
