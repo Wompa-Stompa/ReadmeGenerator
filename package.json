@@ -17,8 +17,12 @@
   },
   "homepage": "https://github.com/coding-boot-camp/potential-enigma#readme",
   "dependencies": {
+    "es6": "^0.0.7",
+    "esm": "^3.2.25",
     "fs": "^0.0.1-security",
-    "inquirer": "^9.0.2"
+    "inquirer": "^8.0.0"
   },
+
+  
   "keywords": []
 }
